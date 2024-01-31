@@ -9,22 +9,23 @@
 
 <script>
     var condition = true; 
-    
+    var pl1 = "";
+    var pl2 = "";
     if (condition) {
-        document.write("Jforce path 1 True  ");
+        pl1 = "true1 ";
     } else {
-        document.write("Jforce path 1 False ");
+        pl1 = "false1 ";
     }
 
     var cond = true; 
     
     if (cond) {
-        document.write("Jforce path 2 True  ");
+        pl2 = "true2 \n";
     } else {
-        document.write("Jforce path 2 False ");
+        pl2 = "false2 \n";
     }
-
-    document.write("Flag Flag Flag Flag Flag Flag  ")
+    var result = pl1 + pl2;
+    document.write(result);
 </script>
 
 </body>
